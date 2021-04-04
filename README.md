@@ -45,12 +45,12 @@ ciclo=(int*)malloc(N*sizeof(int));
 
 Exemplo de uma matriz de 4 cidades:
 
-$$\begin{bmatrix}
+$$\begin{matrix}
 0 & 1 & 1 & 1\\
 1 & 0 & 2 & 2\\
 1 & 2 & 0 & 3\\
 1 & 2 & 3 & 0
-\end{bmatrix}$$
+\end{matrix}$$
 
 Entao o codigo chama uma função baseada em **DFS** que ao inves de usar o sistema de cores _"Branco"_, _"Cinza"_ e _"Preto"_, utiliza a marcação de vertice _"explorado"_ e _"nao explorado"_ onde no retorno o vertice é marcado como nao explorado para assim poder fazer todas combinaçoes possiveis.
 
